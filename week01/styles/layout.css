@@ -1,0 +1,67 @@
+body {
+    display: grid;
+    color: black;
+}
+
+
+header {
+    display: block;
+    color: white;
+    background-color: black;
+}
+
+h1{
+    display: block;
+    color: white;
+    background-color: gray;
+    margin: auto;
+    padding: 30px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+
+li a {
+    color: white;
+    display: block;
+    padding: 0px 16px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+}
+
+main h2 {
+    font-size: 1.2rem;
+    margin: 0px;
+    background-color: lightgray;
+    padding: 100px;
+    width: 80%;
+    align-items: center;
+}
+
+main aside {
+    font-size: 1.2rem;
+    margin: 0px;
+    background-color: white;
+    padding: 100px;
+    width: 15%;
+    align-items: center;
+}
+
+footer {
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    padding: 50px;
+}
