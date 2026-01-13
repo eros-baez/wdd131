@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #5858d3
+}
+
+
+header span {
+    display: block;
+    background-color: var(--primary-color);
+    color: white;
+    font: 1em sans-serif;
+    width: auto;
+    padding: 40px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+a {
+    color: white;
+    display: block;
+    padding: 10px 16px;
+    font: arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    background-color: white;
+}
+main h1 {
+    grid-column: 1 / -1;
+    color: black;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    background-color: #f9f9f9;
+}
+
+section h2 {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+
+section h3 {
+    padding: 10px;
+    text-align: left;
+    color: black;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.imgeros{
+    display: inline-block;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    ;
+}
+
+.imgmisiones{
+    display: inline-block;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    ;
+}
+
+
+
+li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    color: white;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
+
+.lastmodified {
+    color: yellow;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
